@@ -30,7 +30,7 @@ hey! this is a discord bot that keeps an eye on canary messages for a few specif
 4. turn it on:
    ```bash
    # if you're using linux, you can use pm2 to run it in the background and start on boot:
-   npm install -g pm2
+   pnpm add -g pm2
    pm2 start src/bot.js --name "canary-bot"
    pm2 save
    pm2 startup
